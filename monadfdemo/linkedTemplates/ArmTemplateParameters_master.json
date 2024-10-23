@@ -1,0 +1,114 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "monadfdemo"
+		},
+		"LS_AZUREBLOB_connectionString": {
+			"value": ""
+		},
+		"LS_AZUREDATABRICKS_accessToken": {
+			"value": ""
+		},
+		"LS_AZURESQLSERVERDATABASE_password": {
+			"value": ""
+		},
+		"LS_AZURESQLSERVER_EMPLOYEE_password": {
+			"value": ""
+		},
+		"LS_BLOB_connectionString": {
+			"value": ""
+		},
+		"LS_BLOBINPUT_connectionString": {
+			"value": ""
+		},
+		"LS_DATALAKE_accountKey": {
+			"value": ""
+		},
+		"LS_EMPLOYEE_UCPTRIAL_password": {
+			"value": ""
+		},
+		"LS_SQLSERVER_UCPTRIAL_password": {
+			"value": ""
+		},
+		"LS_UCPTRIAL_password": {
+			"value": ""
+		},
+		"SqlServer_MULTIPLE_password": {
+			"value": ""
+		},
+		"LS_AZUREDATABRICKS_properties_typeProperties_existingClusterId": {
+			"value": "62d7ef2cc6ccbb11"
+		},
+		"LS_AZURESQLSERVERDATABASE_properties_typeProperties_server": {
+			"value": "azureservertesstms.database.windows.net"
+		},
+		"LS_AZURESQLSERVERDATABASE_properties_typeProperties_database": {
+			"value": "azuretestdb"
+		},
+		"LS_AZURESQLSERVERDATABASE_properties_typeProperties_userName": {
+			"value": "mazure"
+		},
+		"LS_AZURESQLSERVER_EMPLOYEE_properties_typeProperties_server": {
+			"value": "azureservertesstms.database.windows.net"
+		},
+		"LS_AZURESQLSERVER_EMPLOYEE_properties_typeProperties_database": {
+			"value": "azuretestdb"
+		},
+		"LS_AZURESQLSERVER_EMPLOYEE_properties_typeProperties_userName": {
+			"value": "mazure"
+		},
+		"LS_DATALAKE_properties_typeProperties_url": {
+			"value": "https://azuremonastorage2.dfs.core.windows.net/"
+		},
+		"LS_EMPLOYEE_UCPTRIAL_properties_typeProperties_server": {
+			"value": "45.118.183.70"
+		},
+		"LS_EMPLOYEE_UCPTRIAL_properties_typeProperties_database": {
+			"value": "ucptrial"
+		},
+		"LS_EMPLOYEE_UCPTRIAL_properties_typeProperties_userName": {
+			"value": "kmuttoju"
+		},
+		"LS_HTTP_properties_typeProperties_url": {
+			"value": "@{linkedService().baseurl}"
+		},
+		"LS_HTTP_CASES_DEATHS_properties_typeProperties_url": {
+			"value": "https://opendata.ecdc.europa.eu"
+		},
+		"LS_SQLSERVER_UCPTRIAL_properties_typeProperties_server": {
+			"value": "45.118.183.70"
+		},
+		"LS_SQLSERVER_UCPTRIAL_properties_typeProperties_database": {
+			"value": "ucptrial"
+		},
+		"LS_SQLSERVER_UCPTRIAL_properties_typeProperties_userName": {
+			"value": "kmuttoju"
+		},
+		"LS_UCPTRIAL_properties_typeProperties_server": {
+			"value": "45.118.183.70"
+		},
+		"LS_UCPTRIAL_properties_typeProperties_database": {
+			"value": "ucptrial"
+		},
+		"LS_UCPTRIAL_properties_typeProperties_userName": {
+			"value": "kmuttoju"
+		},
+		"SqlServer_MULTIPLE_properties_typeProperties_server": {
+			"value": "45.118.183.70"
+		},
+		"SqlServer_MULTIPLE_properties_typeProperties_database": {
+			"value": "ucptrial"
+		},
+		"SqlServer_MULTIPLE_properties_typeProperties_userName": {
+			"value": "kmuttoju"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
