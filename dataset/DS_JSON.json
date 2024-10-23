@@ -1,0 +1,33 @@
+{
+	"name": "DS_JSON",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_BLOB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "ecdcdata2.json",
+				"container": "ecdcdata"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"baseurl": {
+					"type": "string"
+				},
+				"sourceurl": {
+					"type": "string"
+				},
+				"sinkfilename": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

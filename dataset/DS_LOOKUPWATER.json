@@ -1,0 +1,28 @@
+{
+	"name": "DS_LOOKUPWATER",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_UCPTRIAL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "lastwatermarkvalue",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "tablename",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "watermark1"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

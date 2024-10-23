@@ -1,0 +1,19 @@
+{
+	"name": "DS_POPULATION",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_DATALAKE",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "population_by_age.tsv.gz",
+				"fileSystem": "populationinput"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

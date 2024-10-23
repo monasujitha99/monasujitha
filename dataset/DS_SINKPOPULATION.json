@@ -1,0 +1,19 @@
+{
+	"name": "DS_SINKPOPULATION",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_DATALAKE",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "populationoutput",
+				"fileSystem": "raw"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

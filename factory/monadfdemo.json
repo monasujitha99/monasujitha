@@ -1,0 +1,9 @@
+{
+	"name": "monadfdemo",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9da406fa-d93a-44fb-adf7-36d497b476a2",
+		"tenantId": "f58b7c09-eff0-45ba-853a-3b3ed0ac68b4"
+	}
+}

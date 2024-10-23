@@ -1,0 +1,22 @@
+{
+	"name": "DS_LOOKUPMULTIPLE",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_UCPTRIAL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "tablename",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "lookupmultiple1"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
